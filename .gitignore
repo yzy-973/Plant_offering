@@ -1,0 +1,33 @@
+# dependencies
+node_modules/
+vue/node_modules/
+
+# build outputs
+target/
+vue/dist/
+*.class
+*.jar
+*.war
+
+# logs & temp
+*.log
+*.err
+backend-start.log
+backend-start.err
+_dbg*.txt
+_dbg*.err
+
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# env / secrets
+.env
+.env.*
+!.env.example
+
+# uploads (keep folder, ignore binaries if desired — currently tracked intentionally via seed assets)
+# files/ 
